@@ -1,0 +1,16 @@
+{
+  "name": "@vernal-projects/framework-data-access",
+  "version": "0.3.0",
+  "description": "Vernal Framework - Data Access",
+  "main": "index.js",
+  "type": "module",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/vernal-projects/vernal-data-access.git"
+  },
+  "author": "D M R Suranga <d.m.ranjith.sura@gmail.com>",
+  "license": "Copyright (c) 2024 - D M R Suranga. All Rights Reserved",
+  "dependencies": {
+    "@vernal-projects/framework-core": "^0.3.0"
+  }
+}

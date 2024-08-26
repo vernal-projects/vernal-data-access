@@ -1,0 +1,23 @@
+{
+  "name": "vernal-data-access",
+  "version": "0.3.0",
+  "main": "dist/data-access/index.js",
+  "type": "module",
+  "scripts": {
+    "clean": "rm -rf dist",
+    "start": "tsc && nodemon --enable-source-maps dist/main.js",
+    "compile": "tsc --watch",
+    "build": "tsc",
+    "cleanBuild": "rm -rf dist && tsc",
+    "build:prod": "build/build-script.sh"
+  },
+  "author": "D M R Suranga <d.m.ranjith.sura@gmail.com>",
+  "license": "Copyright (c) 2024 - D M R Suranga. All Rights Reserved",
+  "devDependencies": {
+    "@types/node": "latest",
+    "nodemon": "latest"
+  },
+  "dependencies": {
+    "@vernal-projects/framework-core": "file:../vernal-core"
+  }
+}
